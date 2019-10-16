@@ -333,8 +333,8 @@ if (defined('WP_CLI') && WP_CLI) {
 
       // gives us access to the download_url() and wp_handle_sideload() functions
       require_once ABSPATH . 'wp-admin/includes/file.php';
-      require_once ABSPATH . '/wp-admin/includes/media.php';
-      require_once ABSPATH . '/wp-admin/includes/image.php';
+      require_once ABSPATH . 'wp-admin/includes/media.php';
+      require_once ABSPATH . 'wp-admin/includes/image.php';
 
       if (!strstr($src, 'http://') && !strstr($src, 'https://')) {
         $src = 'http://' . $src;
