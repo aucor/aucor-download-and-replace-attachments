@@ -54,6 +54,8 @@ You should backup your database and uploads before running this. This plugin com
 
 * If img tags already have "wp-image-123" and "size-large" classes, this plugin will just add another ones
 * The "size-large" does not take account the real image size, it just outputs whatever was the target image size
+* If you are using Polylang / WPML the new attachments are not added to proper language
+* Extension detection can't handle multi-part extension (like .tar.gz)
 
 ### Feature whislist
 
